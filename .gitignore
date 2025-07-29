@@ -1,0 +1,35 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Docusaurus
+/docs/build
+/docs/.docusaurus
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Environment Variables
+.env
+.env*.local
+
+# System files
+.nvm
+
+.cache/
+.cache/
+node_modules/
+node_modules/
+.cache/
