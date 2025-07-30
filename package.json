@@ -14,7 +14,9 @@
     "dev:restart": "pkill -f 'next dev' || true && next dev --port 3008",
     "dev:status": "ps aux | grep 'next dev' | grep -v grep || echo 'No dev server running'",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test:supabase-connection": "node scripts/test-supabase.js",
+    "check-env": "node scripts/check-env.js"
   },
   "keywords": [],
   "author": "",
