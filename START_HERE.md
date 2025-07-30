@@ -38,6 +38,11 @@
 
 ## 🔧 Development Setup
 
+Add to your `.env.local` to disable Turbopack in dev:
+```
+TURBOPACK=0
+```
+
 ### Quick Start
 ```bash
 npm install
