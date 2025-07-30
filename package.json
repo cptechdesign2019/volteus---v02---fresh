@@ -13,7 +13,8 @@
     "dev:bg": "nohup next dev --port 3008 > dev.log 2>&1 & echo 'Dev server started in background'",
     "dev:restart": "pkill -f 'next dev' || true && next dev --port 3008",
     "dev:status": "ps aux | grep 'next dev' | grep -v grep || echo 'No dev server running'",
-    "build": "next build"
+    "build": "next build",
+    "start": "next start"
   },
   "keywords": [],
   "author": "",
